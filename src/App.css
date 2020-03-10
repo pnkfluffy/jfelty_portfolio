@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body {
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: Helvetica, sans-serif;
+}
+img {
+	width: 100%;
+}
+.app {
+	width: 100%;
+	max-width: 1600px;
+	display: flex;
+	flex-direction: column;
+	margin-right: auto;
+	margin-left: auto;
+}
+.top_box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.top_left_box{
+	display: flex;
+	width: 100%;
+	max-width: 500px;
+	justify-content: center;
+}
+.bookmark{
+	display: flex;
+	width: 80%;
+	max-width: 400px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 600px;
+	background-color: lightyellow;
+}
+.name{
+	font-family: Helvetica;
+	font-size: 70px;
+	line-height: 0.9;
+	text-align: center;
+}
+.title{
+	font-size: 35px;
+}
+.contacts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 200px;
+}
+.contacts > a {
+	font-size: 18px;
+	margin: 4px;
+}
+.resume{
+	margin-top: 15px;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-right: 5px;
+	border: 1px solid black;
+	letter-spacing: 5px;
+}
+.bookmark_circle{
+	position: absolute;
+	top: 400px;
+	width: 80%;
+	max-width: 400px;
+	height: 400px;
+	background-color: lightyellow;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.headshot{
+	width: 95%;
+}
+.me{
+	border-radius: 100%;
+}
+.timeline_box{
+	display: flex;
+	flex-direction: row;
+	align-items: flex;
+}
+.timeline_bar{
+	height: 500px;
+
+	margin-top: 50px;
+	width: 20%;
+	border-right: 5px solid black;
+}
+.timeline_content{
+	padding-top: 50px;
+	width: 80%;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+}
+.content_left{
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.content_display, .content_github, .content_description{
+	margin: 3px;
+
+}
+.bottom_box{
+	background-color: purple;
+	height: 500px;
+}
